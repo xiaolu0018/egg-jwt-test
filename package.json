@@ -1,0 +1,30 @@
+{
+  "name": "egg-sql-test",
+  "version": "1.0.0",
+  "description": "egg mysql CURD and validate logon",
+  "author": "lxl",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "test": "egg-bin test",
+    "debug": "egg-bin debug"
+  },
+  "dependencies": {
+    "egg": "^2.23.0",
+    "egg-mysql": "^3.0.0",
+    "egg-redis": "^2.4.0",
+    "egg-scripts": "^2.11.1",
+    "egg-sequelize": "^5.2.0",
+    "egg-validate": "^2.0.2",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.24.0",
+    "mysql2": "^1.7.0",
+    "promise-mysql2": "^1.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.2"
+  }
+}
